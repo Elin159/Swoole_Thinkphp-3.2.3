@@ -2,7 +2,7 @@
 
 ## 描述
 
-本项目在基于Thinkphp_queue_zSet基础上增加对swoole 调用进行封装
+本项目在基于Thinkphp_queue_zSet基础上增加对swoole 调用进行封装, 目前封装了tcp,udp,webSocket,有兴趣可以自行封装其它类型
 
 #### 参数说明
 
