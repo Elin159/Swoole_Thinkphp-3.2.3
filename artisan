@@ -1,0 +1,14 @@
+#!/usr/bin/env php
+<?php
+error_reporting(0);
+define('MODE_NAME', 'cli');  // 采用CLI运行模式运行
+define('APP_DEBUG', true);
+
+require './Config/config.php';
+define( 'APP_PATH', dirname(__FILE__).'/Application/' );
+define('PLUGIN_PATH', 'plugins/');
+require dirname( __FILE__).'/Config/config.php';
+require dirname( __FILE__).'/vendor/autoload.php';
+require dirname( __FILE__).'/ThinkPHP/ThinkPHP.php';
+
+
