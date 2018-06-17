@@ -12,12 +12,10 @@ use Org\Swoole\Swoole;
 
 class TcpServerController extends Swoole {
 
-
     protected $_serv = null;
     protected $host = '0.0.0.0';
 
     public function __construct() {
-
         //swoole所在目录
         $this->swoole_path = __DIR__;
         parent::__construct();
