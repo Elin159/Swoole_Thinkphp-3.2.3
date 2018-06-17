@@ -21,11 +21,11 @@
 
 stop 强制关闭swoole 必须指定port,没有指定host，关闭的监听端口是  *:port,指定了host，关闭 host:port端口
 
-close 平滑关闭swoole 必须指定port,没有指定host，关闭的监听端口是  *:port,指定了host，关闭 host:port端口
+close 平滑关闭swoole 必须指定port,没有指定host，关闭的监听端口是  *:port,指定了host，关闭 host:port端口 (暂时只支持tcpSocket)
 
 restart 强制重启swoole 必须指定端口
 
-reload 平滑重启swoole 必须指定端口
+reload 平滑重启swoole 必须指定端口 (暂时只支持tcpSocket)
 
 status 获取swoole 状态，必须指定port(不指定host默认127.0.0.1), tasking_num是正在处理的任务数量(0表示没有待处理任务)
 
